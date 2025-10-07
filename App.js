@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-// import { GOOGLE_MAPS_API_KEY } from '@env';
+import { GOOGLE_MAPS_API_KEY } from '@env';
 import * as Location from 'expo-location';
 
 export default function App() {
